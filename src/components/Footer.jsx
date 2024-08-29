@@ -17,16 +17,16 @@ function Footer() {
                     <h3>Socials</h3>
                     <ul className="social-list">
                         <a href="#">
-                            <li><img src="../../public/images/insta.png" />Instagram</li>
+                            <li><img src="./images/insta.png" />Instagram</li>
                         </a>
                         <a href="#">
-                            <li><img src="../../public/images/facebook.png" />Facebook</li>
+                            <li><img src="./images/facebook.png" />Facebook</li>
                         </a>
                         <a href="#">
-                            <li><img src="../../public/images/linkedin.png" />Linkedin</li>
+                            <li><img src="./images/linkedin.png" />Linkedin</li>
                         </a>
                         <a href="#">
-                            <li><img src="../../public/images/email.png" />Email</li>
+                            <li><img src="./images/email.png" />Email</li>
                         </a>
                     </ul>
 
