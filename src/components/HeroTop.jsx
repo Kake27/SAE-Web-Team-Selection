@@ -10,12 +10,12 @@ function HeroTop() {
                         aims to promote the understanding and application of Science and Technology among the
                         IIT BHU community.
                     </p>
-                    <img src="../../public/images/pipeflow.jpg" alt="Pipe Flow Image" />
+                    <img src="./images/pipeflow.jpg" alt="Pipe Flow Image" />
                 </div>
             </div>
-            <img className="fluid1"src="../../public/images/fluid1.jpg" />
-            <img className="fluid2"src="../../public/images/fluid2.jpg" />
-            <img className="fluid3"src="../../public/images/fluid3.jpg" />
+            <img className="fluid1"src="./images/fluid1.jpg" />
+            <img className="fluid2"src="./images/fluid2.jpg" />
+            <img className="fluid3"src="./images/fluid3.jpg" />
         </div>
     )
 
