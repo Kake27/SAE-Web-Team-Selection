@@ -6,7 +6,7 @@ function Header(){
     return (
         <header>
             <div className="header-top">
-                <img src="../../public/images/sae.png" alt="sae logo"/>
+                <img src="./images/sae.png" alt="sae logo"/>
                 <ul className="nav-links">
                     <li className="selected"><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -17,7 +17,7 @@ function Header(){
                 <a href="#"><button>Trident</button></a>
 
                 <div className="menu-icon">
-                    <img src="../../public/images/menu.png" />
+                    <img src="./images/menu.png" />
                 </div>
 
                 

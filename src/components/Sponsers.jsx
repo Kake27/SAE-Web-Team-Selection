@@ -5,9 +5,9 @@ function Sponsers() {
         <div className="sponsers">
             <h1>Our Sponsers</h1>
             <div className="sponser-logos">
-                <img src="../../public/images/ansys.png" />
-                <img src="../../public/images/flauta.png" />
-                <img src="../../public/images/connexion.png" />
+                <img src="./images/ansys.png" />
+                <img src="./images/flauta.png" />
+                <img src="./images/connexion.png" />
             </div>
         </div>
     )
