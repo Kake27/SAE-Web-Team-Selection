@@ -537,6 +537,10 @@ footer {
         width: 100%;
         height: auto;
     }
+
+    footer {
+        padding-bottom: 3rem;
+    }
 }
 
 
