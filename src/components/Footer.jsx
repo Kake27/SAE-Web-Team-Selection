@@ -5,8 +5,8 @@ function Footer() {
         <div className="footer-bg">
             <footer>
                 <div className="logos">
-                    <img src="../../public/images/iitbhu.png" alt="institute logo" />
-                    <img src="../../public/images/saelogo.png" alt="sae logo" />
+                    <img src="./images/iitbhu.png" alt="institute logo" />
+                    <img src="./images/saelogo.png" alt="sae logo" />
                 </div>
                 <div className="info">
                     <h3><span>SAE</span> Collegiate Club</h3>
