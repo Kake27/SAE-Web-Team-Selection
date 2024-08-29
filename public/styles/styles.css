@@ -532,6 +532,11 @@ footer {
     .hero-top-desc img {
         margin-top: 3rem;
     }
+
+    .sponser-logos * {
+        width: 100%;
+        height: auto;
+    }
 }
 
 
