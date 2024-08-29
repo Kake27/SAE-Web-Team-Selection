@@ -27,17 +27,17 @@ function Team() {
                 </ul>
                 <div className="images">
                     <div className="image-item">
-                        <img src="../../public/images/pic1.png" />
+                        <img src="./images/pic1.png" />
                         <h3>Nistha Jain</h3>
                         <p>Design Head</p>
                     </div>
                     <div className="image-item">
-                        <img src="../../public/images/pic2.png" />
+                        <img src="./images/pic2.png" />
                         <h3>Saiyam Jain</h3>
                         <p>Web Team Head</p>
                     </div>
                     <div className="image-item">
-                        <img src="../../public/images/pic3.png" />
+                        <img src="./images/pic3.png" />
                         <h3>Palti Sumasri</h3>
                         <p>Social Content Head</p>
                     </div>
