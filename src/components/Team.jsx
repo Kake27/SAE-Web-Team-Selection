@@ -8,6 +8,7 @@ function Team() {
                 <ul className="verticals">
                     <div className="vertical-item selected-vertical">
                         <li className="selected-vertical">Helm</li>
+                        <img src="./images/start.png" />
                     </div>
                     <div className="vertical-item">
                         <li>Aerodynamics</li>

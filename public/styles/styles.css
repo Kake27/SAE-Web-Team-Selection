@@ -253,6 +253,10 @@ span {
     gap: 10px;
 }
 
+.sponser-logos img {
+    max-width: 35vw;
+}
+
 .team-info {
     width: 70%;
     margin: auto;
@@ -303,6 +307,18 @@ span {
     background-color: #1b1a1b;
 }
 
+.selected-vertical {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selected-vertical img {
+    max-width: 30px;
+    width: 3.5vw;
+    height: auto;
+}
+
 .team-menu {
     display: flex;
     justify-content: space-between;
@@ -323,8 +339,14 @@ span {
 }
 
 .image-item img{
+    max-width: 200px;
+    height: auto;
     border-radius: 50%;
-    width: 200px;
+    /* width: 200px; */
+}
+
+.image-item h3, .image-item p {
+    font-size: 1vw;
 }
 
 .selected-vertical {
@@ -349,6 +371,7 @@ footer {
     justify-content: space-evenly;
     align-items: top;
     flex-wrap: wrap;
+    gap: 20px;
 
     min-height: 20rem;
     padding-top: 60px;
@@ -359,6 +382,11 @@ footer {
     font-size: larger;
     margin-top: 25px;
 }
+
+.info *{
+    margin-bottom: 20px;
+}
+
 
 .info h3 {
     font-size: 1.6rem;
@@ -376,10 +404,6 @@ footer {
 .info p{
     font-weight: 400;
     max-width: 14rem;
-}
-
-.info *{
-    margin-bottom: 20px;
 }
 
 .logos img{
@@ -415,6 +439,10 @@ footer {
     width: 20px;
     padding-right: 10px;
     padding-top: 3px;
+}
+
+.social-list a:hover {
+    opacity: 0.7;
 }
 
 .email h3 {
@@ -507,6 +535,7 @@ footer {
         opacity: 0.7;
         cursor: pointer;
     }
+
     .header-top {
         display: flex;
         justify-content: space-between;
@@ -545,8 +574,76 @@ footer {
     }
 }
 
-@media (max-width){
+@media(max-width: 560px){
+    .benefit-item img {
+        width: 20vw;
+        height: auto;
+    }
 
+    .sponsers h1 {
+        font-size: 12vw;
+    }
+
+    .verticals {
+        display: flex;
+    }
+
+    .vertical-item {
+        width: 125px;
+    }
+
+    .vertical-item li {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 530px){
+    .fluid1, .fluid2, .fluid3{
+        display: none;
+    }
+
+    .hero-top-desc img {
+        width: 50vw;
+        height: auto;
+    }
+
+    .hero-top-desc p {
+        font-size: larger;
+    }
+
+    .hero-top {
+        padding-bottom: 8rem;
+    }
+
+    .hero-top-display h1{
+        font-size: xx-large;
+    }
+}
+
+@media(max-width: 500px) {
+    .hero-mid h1 {
+        font-size: 10vw;
+    }
+}
+
+@media(max-width: 460px){
+    .image-item img {
+        min-width: 60px;
+    }
+    .image-item h3, .image-item p {
+        font-size: 3vw;
+    }
+}
+
+@media(max-width: 365px){
+    .socials {
+        display: block;
+        text-align: center;
+    }
+
+    .socials * {
+        text-align: center;
+    }
 }
 
 
